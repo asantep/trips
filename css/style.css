@@ -5,7 +5,8 @@
 #wrapper{
     width: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: darkgrey
+    background-color: darkgrey;
+    margin:0;
 }
 .navigation{
     text-align: center;
@@ -14,9 +15,13 @@
     height: 30px;
     padding-top: 10px;
     margin-bottom: 5px;
+    position: sticky;
+    top:0;
 }
 li{    
     display: inline;
+    position: relative;
+    top: 2px;
 }
 .navigation a{
     color: beige;
@@ -96,21 +101,25 @@ form{
     padding-bottom: 12px;
     margin-bottom: 30px;
     border-top:0;
-    border-left:0;
-    border-right:0;
-    border-bottom: 1px solid #ccc;
+    border-left:0;Which CSS property and value would you use so that you can change the height and width of an inline element?
+
+    border-right:0Which CSS property and value would you use so that you can change the height and width of an inline element?
+
+    border-bottom:Which CSS property and value would you use so that you can change the height and width of an inline element?
+ #ccc;
     width: 350px;
+    outline: none;Which CSS property and value would you use so that you can change the height and width of an inline element?
+
 }
 #submit{
     background-color: #0056ff;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 12px 24px;
     font-size: 18px;
     border: none;
     color: white;
     margin: auto;
+    outline: none;
+    cursor: pointer;
 }
 .form_submit{
     text-align: center;
@@ -142,4 +151,8 @@ form{
 .cover_image h3{
     text-align: center;
     padding-top: 20px;
+}
+p{
+    line-height: 20px;
+    letter-spacing: 2px;
 }
